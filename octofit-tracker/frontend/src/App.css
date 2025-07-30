@@ -1,0 +1,128 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #f0f8ff 0%, #e0e7ff 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  color: #222a68;
+}
+
+.App-logo {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #4682b4;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover, .App-link:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav.navbar {
+  background: linear-gradient(90deg, #4682b4 0%, #6a5acd 100%);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffd700 !important;
+}
+
+h1, .display-4, .display-5 {
+  color: #4b0082;
+  font-weight: 700;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(70,130,180,0.08);
+  margin-bottom: 2rem;
+}
+
+.table {
+  background: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th {
+  background: #6a5acd;
+  color: #fff;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e0e7ff;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #ffe4b5;
+}
+
+button, .btn {
+  background: linear-gradient(90deg, #4682b4 0%, #6a5acd 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+button:hover, .btn:hover {
+  background: linear-gradient(90deg, #6a5acd 0%, #4682b4 100%);
+  color: #ffd700;
+}
+
+.favicon {
+  width: 32px;
+  height: 32px;
+}
